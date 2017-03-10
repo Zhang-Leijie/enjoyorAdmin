@@ -1,0 +1,395 @@
+//用户头像
+.head-image{
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+.head-word{
+  float: left;
+  margin-left: 20px;
+  margin-top: 18px;
+  .name{
+    font-size: 16px;
+    color: #333;
+  }
+  .position{
+    font-size: 12px;
+    color: #888;
+  }
+}
+//编辑input
+// .el-input{
+//   width: 220px;
+//   height: 40px;
+// };
+.edit-input{
+  width: 220px;
+  height: 40px;
+  .el-input{
+    width: 100%;
+    height: 40px;
+  }
+}
+.edit-input.el-input{
+  width: 220px;
+  height: 40px;
+  input{
+    width: 100%;
+    height: 40px;
+  }
+}
+.pl-textarea{
+  width: 100%;
+  height: 200px;
+  border:1px solid #c0ccda;
+  padding: 10px;
+  font-size: 14px;
+}
+//清除浮动
+.clearfix{
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+//基金详情
+@blue:#4990e2;
+@pray:#f1f2f7;
+@label:#5ac0de;
+.edit{
+  line-height: 40px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  background-color: @blue;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.back{
+  line-height: 40px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 80px;
+  height: 40px;
+  border-radius: 0 20px 20px 0;
+  background-color: @blue;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.fund-summary{
+  padding: 30px 0px;
+  position: relative;
+  .itemimg{
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+    img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+  .sum-item{
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 160px;
+    .item-title{
+      text-align: center;
+      color: #666;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 140px;
+      height: 40px;
+      line-height: 40px;
+      background-color: @pray;
+      border-radius: 0 20px 20px 0;
+    }
+    .item-title2{
+      border-radius: 20px;
+    }
+    .item-content{
+      font-size: 14px;
+      color: #333;
+      width: 100%;
+    }
+    .item-single{
+      line-height: 40px;
+    }
+    .item-label{
+      margin-top: 3px;
+      color: #fff;
+      font-size: 12px;
+      margin-right: 10px;
+      display: inline-block;
+      padding: 9px 11px;
+      background-color: @label;
+    }
+    .item-team{
+      margin-right: 50px;
+      float: left;
+      margin-top: 20px;
+    }
+  }
+  .sum-double{
+    width: 50%;
+    float: left;
+  }
+  .sum-trible{
+    width: 33%;
+    float: left;
+  }
+}
+//人员信息
+.block-cont{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  padding: 20px 10px;
+  border-bottom: 1px solid #f1f2f7;
+  background-color: #fff;
+  // display: inline-block;
+  .cont-sign{
+    margin-top: 6px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+  .sign-light{
+    background-color: #d0011b;
+  }
+  .sign-dark{
+    background-color: #dfdfdf;
+  }
+  .cont-img{
+    float: left;
+    width: 40px;
+    height: 40px;
+  }
+  .img-item{
+    width: 73px;
+    height: 40px;
+  }
+  .cont-word{
+    span{
+      display: inline-block;
+      line-height: 20px;
+    }
+    margin-top: 3px;
+    color: #888;
+    float: left;
+    margin-left: 10px;
+    .name{
+      font-size: 14px;
+      color: #333;
+    }
+  }
+  .cont-time{
+    position: absolute;
+    font-size: 12px;
+    top: 20px;
+    right: 10px;
+    color: #888;
+    margin-top: 4px;
+  }
+}
+.n-margin{
+  margin-bottom: 0px !important;
+}
+//table
+.tableStyle{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 10px;
+  th{
+    background-image:linear-gradient(-180deg, #5785a6 2%, #396187 48%, #5785a6 98%);
+    border:1px solid #f1f2f7;
+    // width:80px;
+    height:40px;
+    color: #fff;
+  }
+  td{
+    text-align: center;
+    background:#f9f9f9;
+    border:1px solid #f1f2f7;
+    width:120px;
+    height:40px;
+  }
+}
+//按钮
+.button{
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.grey{
+  background-color: #dfdfdf;
+  color: #333;
+}
+.blue{
+  background-color: #4990e2;
+  color: #fff;
+}
+.white{
+  background-color: #fff;
+  color: #333;
+}
+//高级搜索
+.inlist-search{
+  margin-top: 20px;
+}
+.inlist-highsearch{
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+  .searinfo{
+    margin-right: 20px;
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+  }
+  .searinfo2{
+    margin-top: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 168px;
+    height: 40px;
+  }
+  .btns{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .close{
+    top: -20px;
+    right: -20px;
+    position: absolute;
+    background-color: #4990e2;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 10px solid #f1f2f7;
+    text-align: center;
+    .i-close{
+      cursor: pointer;
+      font-size: 20px;
+      color: #fff;
+      margin-top: 10px;
+    }
+  }
+}
+//进度条
+.width1{
+  width: 25px !important;
+}
+.width2{
+  width: 122px !important;
+}
+.width3{
+  width: 219px !important;
+}
+.width4{
+  width: 316px !important;
+}
+.width5{
+  width: 413px !important;
+}
+.width6{
+  width: 510px !important;
+}
+.width7{
+  width: 607px !important;
+}
+.width8{
+  width:704px !important;
+}
+.width9{
+  width: 100% !important;
+}
+//
+.sum-item{
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 160px;
+    .item-title{
+      text-align: center;
+      color: #666;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 140px;
+      height: 40px;
+      line-height: 40px;
+      background-color: @pray;
+      border-radius: 0 20px 20px 0;
+    }
+    .item-title2{
+      border-radius: 20px;
+    }
+    .item-content{
+      min-height: 40px;
+      font-size: 14px;
+      color: #333;
+      width: 100%;
+    }
+    .item-single{
+      line-height: 40px;
+    }
+    .item-label{
+      margin-top: 3px;
+      color: #fff;
+      font-size: 12px;
+      margin-right: 10px;
+      display: inline-block;
+      padding: 9px 11px;
+      background-color: @label;
+    }
+    .item-team{
+      margin-right: 50px;
+      float: left;
+      margin-top: 20px;
+    }
+  }
+  .sum-double{
+    width: 50%;
+    float: left;
+  }
+  .sum-trible{
+    width: 33%;
+    float: left;
+  }
+  .uploadimg{
+    border: 4px solid #9aabb9;
+    background:#f5f8fa;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    color: #9aabb9;
+    text-align: center;
+    cursor: pointer;
+    i{
+      margin-top: 20px;
+      font-size: 50px;
+    }
+  }

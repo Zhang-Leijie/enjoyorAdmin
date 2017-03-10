@@ -1,0 +1,374 @@
+.head-image {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+.head-word {
+  float: left;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+.head-word .name {
+  font-size: 16px;
+  color: #333;
+}
+.head-word .position {
+  font-size: 12px;
+  color: #888;
+}
+.edit-input {
+  width: 220px;
+  height: 40px;
+}
+.edit-input .el-input {
+  width: 100%;
+  height: 40px;
+}
+.edit-input.el-input {
+  width: 220px;
+  height: 40px;
+}
+.edit-input.el-input input {
+  width: 100%;
+  height: 40px;
+}
+.pl-textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #c0ccda;
+  padding: 10px;
+  font-size: 14px;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.edit {
+  line-height: 40px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  background-color: #4990e2;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.back {
+  line-height: 40px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 80px;
+  height: 40px;
+  border-radius: 0 20px 20px 0;
+  background-color: #4990e2;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.fund-summary {
+  padding: 30px 0px;
+  position: relative;
+}
+.fund-summary .itemimg {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.fund-summary .itemimg img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.fund-summary .sum-item {
+  width: 80%;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 160px;
+}
+.fund-summary .sum-item .item-title {
+  text-align: center;
+  color: #666;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f1f2f7;
+  border-radius: 0 20px 20px 0;
+}
+.fund-summary .sum-item .item-title2 {
+  border-radius: 20px;
+}
+.fund-summary .sum-item .item-content {
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+}
+.fund-summary .sum-item .item-single {
+  line-height: 40px;
+}
+.fund-summary .sum-item .item-label {
+  margin-top: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 9px 11px;
+  background-color: #5ac0de;
+}
+.fund-summary .sum-item .item-team {
+  margin-right: 50px;
+  float: left;
+  margin-top: 20px;
+}
+.fund-summary .sum-double {
+  width: 50%;
+  float: left;
+}
+.fund-summary .sum-trible {
+  width: 33%;
+  float: left;
+}
+.block-cont {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  padding: 20px 10px;
+  border-bottom: 1px solid #f1f2f7;
+  background-color: #fff;
+}
+.block-cont .cont-sign {
+  margin-top: 6px;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.block-cont .sign-light {
+  background-color: #d0011b;
+}
+.block-cont .sign-dark {
+  background-color: #dfdfdf;
+}
+.block-cont .cont-img {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+.block-cont .img-item {
+  width: 73px;
+  height: 40px;
+}
+.block-cont .cont-word {
+  margin-top: 3px;
+  color: #888;
+  float: left;
+  margin-left: 10px;
+}
+.block-cont .cont-word span {
+  display: inline-block;
+  line-height: 20px;
+}
+.block-cont .cont-word .name {
+  font-size: 14px;
+  color: #333;
+}
+.block-cont .cont-time {
+  position: absolute;
+  font-size: 12px;
+  top: 20px;
+  right: 10px;
+  color: #888;
+  margin-top: 4px;
+}
+.n-margin {
+  margin-bottom: 0px !important;
+}
+.tableStyle {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.tableStyle th {
+  background-image: linear-gradient(-180deg, #5785a6 2%, #396187 48%, #5785a6 98%);
+  border: 1px solid #f1f2f7;
+  height: 40px;
+  color: #fff;
+}
+.tableStyle td {
+  text-align: center;
+  background: #f9f9f9;
+  border: 1px solid #f1f2f7;
+  width: 120px;
+  height: 40px;
+}
+.button {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.grey {
+  background-color: #dfdfdf;
+  color: #333;
+}
+.blue {
+  background-color: #4990e2;
+  color: #fff;
+}
+.white {
+  background-color: #fff;
+  color: #333;
+}
+.inlist-search {
+  margin-top: 20px;
+}
+.inlist-highsearch {
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+}
+.inlist-highsearch .searinfo {
+  margin-right: 20px;
+  display: inline-block;
+  width: 240px;
+  height: 40px;
+}
+.inlist-highsearch .searinfo2 {
+  margin-top: 15px;
+  margin-right: 20px;
+  display: inline-block;
+  width: 168px;
+  height: 40px;
+}
+.inlist-highsearch .btns {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.inlist-highsearch .close {
+  top: -20px;
+  right: -20px;
+  position: absolute;
+  background-color: #4990e2;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 10px solid #f1f2f7;
+  text-align: center;
+}
+.inlist-highsearch .close .i-close {
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+.width1 {
+  width: 25px !important;
+}
+.width2 {
+  width: 122px !important;
+}
+.width3 {
+  width: 219px !important;
+}
+.width4 {
+  width: 316px !important;
+}
+.width5 {
+  width: 413px !important;
+}
+.width6 {
+  width: 510px !important;
+}
+.width7 {
+  width: 607px !important;
+}
+.width8 {
+  width: 704px !important;
+}
+.width9 {
+  width: 100% !important;
+}
+.sum-item {
+  width: 80%;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 160px;
+}
+.sum-item .item-title {
+  text-align: center;
+  color: #666;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f1f2f7;
+  border-radius: 0 20px 20px 0;
+}
+.sum-item .item-title2 {
+  border-radius: 20px;
+}
+.sum-item .item-content {
+  min-height: 40px;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+}
+.sum-item .item-single {
+  line-height: 40px;
+}
+.sum-item .item-label {
+  margin-top: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 9px 11px;
+  background-color: #5ac0de;
+}
+.sum-item .item-team {
+  margin-right: 50px;
+  float: left;
+  margin-top: 20px;
+}
+.sum-double {
+  width: 50%;
+  float: left;
+}
+.sum-trible {
+  width: 33%;
+  float: left;
+}
+.uploadimg {
+  border: 4px solid #9aabb9;
+  background: #f5f8fa;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  color: #9aabb9;
+  text-align: center;
+  cursor: pointer;
+}
+.uploadimg i {
+  margin-top: 20px;
+  font-size: 50px;
+}
